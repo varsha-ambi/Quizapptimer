@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Static Template</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="title">Quiz App</h1>
+      <div class="timer" id="timer"></div>
+      <div class="score">Score : <span id="score">0</span></div>
+      <div class="questions" id="questions">
+        <div class="question">
+          1.After Google, what is the second most popular website in the world?
+        </div>
+        <div class="options">
+          <button class="option" onclick="handleClick(this)">Facebook</button>
+          <button class="option" onclick="handleClick(this)">Baidu</button>
+          <button class="option" onclick="handleClick(this)">You Tube</button>
+          <button class="option" onclick="handleClick(this)">Twitter</button>
+        </div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
